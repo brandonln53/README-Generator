@@ -30,7 +30,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
     {
       type: "input",
       message: "Please describe the installation process for your project.",
-      name: "install"
+      name: "installation"
     },
     {
       type: "input",
@@ -66,7 +66,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
     {
       type: "input",
       message: "Please provide your GitHub profile picture.",
-      name: "profile-pic"
+      name: "questions"
     },
     {
       type: "input",
