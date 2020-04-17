@@ -3,7 +3,6 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const markdown = require("./utils/markdown");
 
-const writeFileAsync = util.promisify(fs.writeFile);
 
     
     const questions = [
@@ -84,7 +83,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(inquirerResponses => {
         writeToFile("README.md", generateMarkdown({ ...inquirerResponses }))
-    })
+    });
 }
 
 init();

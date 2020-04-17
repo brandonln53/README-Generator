@@ -72,4 +72,4 @@ If you have any questions about the repo, open an issue ticket or contact [${dat
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown();
