@@ -12,7 +12,7 @@ const markdown = require("./utils/markdown");
       name: "github"
     },
     {
-      type: "input",
+      type: "title",
       message: "What is the title of this development project?",
       name: "title"
     },
