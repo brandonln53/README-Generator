@@ -1,7 +1,7 @@
 const path = require("path");
 const inquirer = require("inquirer");
 const fs = require("fs");
-const markdown = require("./utils/markdown");
+const markdown = require("./utils/markdown.js");
 
 
     
@@ -83,7 +83,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(inquirerResponses => {
         writeToFile("README.md", generateMarkdown({ ...inquirerResponses }))
-    });
+    })
 }
 
 init();
