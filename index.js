@@ -1,7 +1,7 @@
 const path = require("path");
 const inquirer = require("inquirer");
 const fs = require("fs");
-const markdown = require("./utils/markdown.js");
+const generateMarkdown = require("./utils/markdown.js");
 
 
     

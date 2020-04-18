@@ -3,7 +3,7 @@ function generateProjectURL(github, title) {
     return `https://github.com/${github}/${caseTitle}`;
 }
 
-function renderBadge(license, github, title) {
+function renderLicenseBadge(license, github, title) {
     if (license !== "none") {
         return `[![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](${generateProjectURL(github, title)})`
 
@@ -12,7 +12,7 @@ function renderBadge(license, github, title) {
     return "";
 }
 
-function renderSection(license) {
+function renderLicenseSection(license) {
     if (license !== "none") {
         return (`## License - This Project is Licensed Under ${license} License`);
     }
