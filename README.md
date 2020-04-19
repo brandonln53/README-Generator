@@ -1,10 +1,10 @@
 
-# NodeJS READEME Generator
+# NodeJS README-Generator
 
 
 ## Description
 
-undefined
+This NodeJS application utilizes a series of questions to generate a quality, thorough, README file for a development project.
 
 ## Table of Contents
 
@@ -25,12 +25,12 @@ undefined
 To install necessary dependencies, run the following command:
 
 ```
-Make certain you do an npm i within node; npm i inquirer and path; run index.js, answer the questions that will populate your README, then watch the README generate after you complete the process.
+Install nodejs; once that is completed, npm i inquirer and npm i path; run index.js, answer the given questions, then wait for the README.md file to be generated based off of your answers.
 ```
 
 ## Usage
 
-The README Generator is for any developer who wants an efficient and thorough means of generating a README file that complies with the Good README Guide outlined by University of Denver Full-Stack Web Development Bootcamp.
+I am a DEVELOPER and need an efficient, yet thorough, means of generating a README for my project that complies with the Good README Guide.
 
 
 
@@ -45,4 +45,6 @@ undefined
 ## Questions
 
 If you have any questions about the repo, open an issue ticket or contact [brandonln53](undefined) directly at brandonln@gmail.com.
+https://avatars0.githubusercontent.com/u/61507957?s=150&u=43ee490b51c31e02e23805dfbb3c546c2f46b041&v=4
+https://img.shields.io/badge/Junior%20Developer-In%20Training-lightgrey
 

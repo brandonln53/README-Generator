@@ -8,6 +8,11 @@ const generateMarkdown = require("./utils/markdown.js");
     const questions = [
     {
       type: "input",
+      message: "Give a brief, but thorough, description of this project.",
+      name: "description"
+    },
+    {
+      type: "input",
       message: "What is your Github username?",
       name: "github"
     },
@@ -42,8 +47,8 @@ const generateMarkdown = require("./utils/markdown.js");
       name: "credits"
     },
     {
-      type: "input",
-      message: "Do you have a badge for your README file?",
+      type: "img",
+      message: "Do you have a badge image link for your README file?",
       name: "badge"
     },
     {
@@ -63,7 +68,7 @@ const generateMarkdown = require("./utils/markdown.js");
       choices: ["MIT", "APACHE 2.0", "GPLv3", "BSD", "none"]
     },
     {
-      type: "input",
+      type: "img",
       message: "Please provide your GitHub profile picture.",
       name: "questions"
     },

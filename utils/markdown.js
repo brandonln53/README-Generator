@@ -68,6 +68,8 @@ ${data.test}
 ## Questions
 
 If you have any questions about the repo, open an issue ticket or contact [${data.github}](${data.url}) directly at ${data.email}.
+${data.questions}
+${data.badge}
 
 `;
 }
