@@ -4,7 +4,7 @@
 
 ## Description
 
-undefined
+A simple NodeJS index file that will generate a README file for developers.
 
 ## Table of Contents
 
