@@ -4,7 +4,11 @@
 
 ## Description
 
+<<<<<<< HEAD
 This NodeJS application utilizes a series of questions to generate a quality, thorough, README file for a development project.
+=======
+A simple NodeJS index file that will generate a README file for developers.
+>>>>>>> 224e7b6e9b46cbed5bbd8f93cd3f65840be6d7a5
 
 ## Table of Contents
 
